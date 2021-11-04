@@ -1,7 +1,5 @@
     def getQueueNamesFromPropertiesFiles(String propertyfilename) {
-        def outputvar = ""
-
-        File fh1 = new File(propertyfilename);
+        def outputvar = "";
         File fh2 = new File(propertyfilename);
         def lines = fh2.readLines();
 
